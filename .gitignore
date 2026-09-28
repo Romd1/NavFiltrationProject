@@ -1,0 +1,22 @@
+# Fichiers de sauvegarde automatique
+*.asv
+*.m~
+*.autosave
+
+# Binaires MEX compilés
+*.mex*
+
+# Apps et toolboxes packagées
+*.mlappinstall
+*.mltbx
+
+# Simulink : cache et code généré
+slprj/
+*.slxc
+*_grt_rtw/
+*_ert_rtw/
+codegen/
+
+# Divers
+.DS_Store
+Thumbs.db
