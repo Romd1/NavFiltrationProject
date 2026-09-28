@@ -1,4 +1,11 @@
-*.mat  binary
+# Fichiers binaires MATLAB/Simulink
 *.slx  binary
-*.mlx  binary
+*.mdl  binary
+*.mat  binary
+*.sldd binary
 *.fig  binary
+*.mlx  binary
+
+# Fin de ligne normalisée pour le texte
+*.m    text
+*.md   text

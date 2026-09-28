@@ -1,22 +1,21 @@
-# Fichiers de sauvegarde automatique
-*.asv
-*.m~
-*.autosave
+# Résultats de simulation
+results/
 
-# Binaires MEX compilés
-*.mex*
-
-# Apps et toolboxes packagées
-*.mlappinstall
-*.mltbx
-
-# Simulink : cache et code généré
+# Cache et code généré Simulink
 slprj/
 *.slxc
 *_grt_rtw/
 *_ert_rtw/
 codegen/
 
-# Divers
+# Sauvegardes MATLAB
+*.asv
+*.autosave
+*.m~
+
+# Fichiers auto-générés du Projet MATLAB
+resources/project/
+
+# Système
 .DS_Store
 Thumbs.db
